@@ -1,0 +1,19 @@
+.filtrar {
+
+	margin: 0 auto;
+	margin-bottom: 4rem;
+}
+.inputFiltrar {
+	height: 4rem;
+	border-radius: 20px;
+	padding: 0 1rem;
+	outline: var(--color-primary);
+	width: 140px;
+	border: solid 1px rgb(0, 0, 0);
+}
+
+.inputFiltrar:focus {
+	border: solid 1px blueviolet;
+	transition-duration: 0.5s;
+	width: 170px;
+}
